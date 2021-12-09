@@ -1,0 +1,163 @@
+{
+    "speedMultMalus": 0.354,
+    "weaponSpeedMultOneHanderMalus": 0.354,
+    "weaponSpeedMultTwoHanderMalus": 0.354,
+    "weaponSpeedMultRangedMalus": 0.485,
+    "staminaRateMultMalus": 0.631,
+    "magickaRateMultMalus": 0.631,
+    "powerAttackStaminaMultMalus": 0.0126,
+    "spellCostMalus": 0.00606,
+
+    "lightCuirassBase": 13.0,
+    "lightGauntletsBase": 2.0,
+    "lightBootsBase": 2.0,
+    "lightHelmetBase": 5.0,
+    "heavyCuirassBase": 0.0,
+    "heavyGauntletsBase": 2.0,
+    "heavyBootsBase": 2.0,
+    "heavyHelmetBase": 5.0,
+    "shieldBase": 0.0,
+
+    "enableSkillBonuses": true,
+    "speedMultLightArmorSkillBonus": 0.10,
+    "speedMultHeavyArmorSkillBonus": 0.14,
+    "weaponSpeedMultOneHandedSkillBonus": 0.10,
+    "weaponSpeedMultTwoHandedSkillBonus": 0.18,
+    "weaponSpeedMultMarksmanSkillBonus": 0.16,
+    "staminaRateMultLightArmorSkillBonus": 0.10,
+    "staminaRateMultHeavyArmorSkillBonus": 0.20,
+    "magickaRateMultMagicSkillBonus": 0.05,
+    "powerAttackStaminaOneHandedSkillBonus": 0.004,
+    "powerAttackStaminaTwoHandedSkillBonus": 0.005,
+    "spellCostSkillBonus": 0.002,
+
+    "racialOffsets": {
+        "Orc": [
+            {
+                "malus": "SpeedMult",
+                "armorKeyword": "ArmorHeavy",
+                "weaponKeyword": "Any",
+                "requiresShield": false,
+                "pctOffset": 0.250
+            },
+            {
+                "malus": "WeaponSpeedMult",
+                "armorKeyword": "ArmorHeavy",
+                "weaponKeyword": "WeapTypeWarhammer",
+                "requiresShield": false,
+                "pctOffset": 0.250
+            }
+        ],
+        "Nord": [
+            {
+                "malus": "SpeedMult",
+                "armorKeyword": "ArmorLight",
+                "weaponKeyword": "Any",
+                "requiresShield": false,
+                "pctOffset": 0.250
+            },
+            {
+                "malus": "WeaponSpeedMult",
+                "armorKeyword": "ArmorLight",
+                "weaponKeyword": "WeapTypeBattleaxe",
+                "requiresShield": false,
+                "pctOffset": 0.250
+            }
+        ],
+        "Bosmer": [
+            {
+                "malus": "WeaponSpeedMult",
+                "armorKeyword": "ArmorHeavy",
+                "weaponKeyword": "WeapTypeBow",
+                "requiresShield": false,
+                "pctOffset": 0.250
+            }
+        ],
+        "Imperial": [
+            {
+                "malus": "WeaponSpeedMult",
+                "armorKeyword": "ArmorHeavy",
+                "weaponKeyword": "Any",
+                "requiresShield": true,
+                "pctOffset": 0.250
+            }
+        ],
+        "Redguard": [
+            {
+                "malus": "WeaponSpeedMult",
+                "armorKeyword": "ArmorLight",
+                "weaponKeyword": "Any",
+                "requiresShield": true,
+                "pctOffset": 0.250
+            }
+        ]
+    },
+    "spellCostArgonianLightArmorRestorationPctOffset": 0.250,
+    "spellCostArgonianLightArmorAlterationPctOffset": 0.250,
+    "spellCostDunmerLightArmorFireDamagePctOffset": 0.250,
+    "spellCostImperialHeavyArmorRestorationPctOffset": 0.250,
+
+    "factionalOffsets": {
+        "Dawnguard|0x003375~Dawnguard.esm": [
+            {
+                "malus": "WeaponSpeedMult",
+                "armorKeyword": "Any",
+                "weaponKeyword": "WeapTypeCrossbow",
+                "requiresShield": false,
+                "pctOffset": 0.500
+            }
+        ], 
+        "Forsworn|0x043599~Skyrim.esm": [
+            {
+                "malus": "WeaponSpeedMult",
+                "armorKeyword": "ArmorLight",
+                "weaponKeyword": "WeapTypeCrossbow",
+                "requiresShield": false,
+                "pctOffset": 0.500
+            }
+        ], 
+        "GuardFaction|0x086EEE~Skyrim.esm": [
+            {
+                "malus": "StaminaRateMult",
+                "armorKeyword": "Any",
+                "weaponKeyword": "Any",
+                "requiresShield": false,
+                "pctOffset": 0.500
+            },
+            {
+                "malus": "WeaponSpeedMult",
+                "armorKeyword": "Any",
+                "weaponKeyword": "Any",
+                "requiresShield": false,
+                "pctOffset": 0.500
+            }
+        ], 
+        "Imperial Legion|0x02BF9A~Skyrim.esm": [
+            {
+                "malus": "SpeedMult",
+                "armorKeyword": "Any",
+                "weaponKeyword": "Any",
+                "requiresShield": true,
+                "pctOffset": 0.500
+            }
+        ], 
+        "Sons of Skyrim|0x02BF9B~Skyrim.esm": [
+            {
+                "malus": "WeaponSpeedMult",
+                "armorKeyword": "ArmorLight",
+                "weaponKeyword": "Any",
+                "requiresShield": false,
+                "pctOffset": 0.500
+            }
+        ]
+    },
+    "spellCostThalmorLightArmorPctOffset": 0.500,
+    
+    "lightArmorPerkFormId": "0x051B1C~Skyrim.esm",
+    "lightArmorPerkOffsetPct": 0.30,
+    "heavyArmorPerkFormId": "0x058F6D~Skyrim.esm",
+    "heavyArmorPerkOffsetPct": 0.15,
+
+    "debug": false,
+    "useCloak": false
+}
